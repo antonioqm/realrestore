@@ -1,0 +1,236 @@
+.guide-card-container {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 10px 40px 0px rgba(216, 216, 216, 0.65), 0px 2px 3.84px 0.16px rgba(1, 0, 1, 0.06);
+  padding: 0px !important;
+  width: 100%;
+  height: auto;
+  min-height: 274px !important;
+  z-index: 120;
+  max-width: 814px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.guide-card-sub-container {
+  width: 50%;
+  height: auto;
+}
+
+.guide-card-sub-container-left {
+  background-image: -webkit-linear-gradient(75deg, #30ceca 0%, #00e4ff 100%);
+  background-image: -ms-linear-gradient(75deg, #30ceca 0%, #00e4ff 100%);
+  padding: 37px;
+  z-index: 121;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.guide-card-sub-container-right {
+  padding: 26px;
+}
+
+.guide-card-photo-perfile {
+  width: 100%;
+  height: auto;
+}
+
+.guide-card-sprite {
+  background-image: url(../img/sprite.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.guide-card-icon-profile {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  z-index: 130;
+  background-color: #fcdb18;
+  box-shadow: 1.312px 1.509px 2px 0px rgba(7, 114, 121, 0.4);
+}
+
+.guide-card-name {
+  font-size: 28px;
+  font-family: "Proxima Nova";
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  text-align: left;
+  text-shadow: 0px 1px 1.96px rgba(1, 0, 1, 0.2);
+  font-weight: 800;
+  margin-bottom: 0px !important;
+  width: 100%;
+  height: auto;
+  z-index: 125;
+}
+
+.guide-card-name a {
+  color: #fff !important;
+}
+
+.guide-card-rgister {
+  font-size: 14px;
+  font-family: "Proxima Nova";
+  color: #036d6a;
+  margin-bottom: 0px !important;
+  text-transform: uppercase;
+  text-align: left;
+  z-index: 126;
+}
+
+.guide-card-container-specialties {
+  border-bottom: 1px solid #dbdbdb;
+  margin: 0 -26px;
+  padding: 0 26px 26px 26px;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.guide-card-item {
+  width: 27px;
+  height: 27px;
+  -webkit-box-flex: 0;
+  flex: 0 0 27px;
+  margin-top: 7px;
+  margin-right: 18px;
+  background-size: 383px;
+  background-position-x: 0px;
+  background-position-y: -26px;
+}
+
+.guide-card-spacialties {
+  font-size: 14px;
+  color: #6f6f6f;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  margin: 0px !important;
+  padding: 0px !important;
+  letter-spacing: 1px;
+}
+
+.guide-card-spacialties a:hover {
+  color: #053f6a;
+  font-style: normal;
+  text-decoration: none !important;
+}
+
+.guide-card-label {
+  font-size: 11px;
+  color: black;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.guide-card-metts {
+  font-size: 13px;
+  color: #6f6f6f;
+  text-align: left;
+  font-weight: 600;
+}
+
+.guide-card-container-address {
+  font-size: 13px;
+  color: #6f6f6f;
+  text-align: left;
+  font-weight: 600;
+}
+
+.guide-card-container-phone {
+  font-size: 13px;
+  color: #6f6f6f;
+  text-align: left;
+  font-weight: 600;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.guide-card-container-address p {
+  margin: 0px !important;
+  padding-left: 45px !important;
+}
+
+.guide-card-container-phone p {
+  margin: 0px !important;
+  margin-left: 45px !important;
+  font-size: 16px;
+  color: #525252;
+}
+
+.guide-card-phone-fix,
+.guide-card-phone-cell {
+  width: 50%;
+  /*background-color: red;*/
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+}
+
+.guide-card-container-address .material-icons {
+  margin-left: -32px !important;
+  font-size: 16px !important;
+  padding-right: 16px !important;
+  margin-top: 23px !important;
+  color: #c8c8c8;
+}
+
+.guide-card-container-phone .material-icons {
+  margin-left: -32px !important;
+  font-size: 16px !important;
+  padding-right: 16px !important;
+  color: #c8c8c8;
+  display: block;
+  position: absolute;
+  margin-left: 10px;
+  display: none;
+}
+
+.guide-card-metts {
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.guide-card-phone-fix > p:nth-child(1) i,
+.guide-card-phone-cell > p:nth-child(1) i {
+  display: block;
+}
+
+.guide-card-phone-fix span,
+.guide-card-phone-cell span {
+  font-size: 11px;
+}
+
+.guide-card-number {
+  font-size: 180px !important;
+  color: #dbdbdb !important;
+  position: absolute !important;
+  z-index: 191 !important;
+}
+
+.pagination-guide {
+  text-align: center !important;
+}
+
+h1.guide-card-count {
+  position: absolute;
+  right: 0;
+  bottom: -65px;
+  font-size: 18rem;
+  opacity: .05;
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /password/reset/ 
+Disallow: /login/ 
